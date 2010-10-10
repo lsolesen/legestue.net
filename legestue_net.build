@@ -1,3 +1,6 @@
+; drush make API version
+api = 2
+
 core = 6.x
 projects[] =  drupal
 projects[legestue_net][type] = "profile"
