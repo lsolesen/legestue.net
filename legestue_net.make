@@ -2,7 +2,6 @@ api = 2
 
 core = 6.x
 
-projects[] = actions
 projects[] = addthis
 projects[] = admin_menu
 projects[] = antispam
