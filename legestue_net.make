@@ -14,7 +14,6 @@ projects[] = pathauto
 projects[] = image
 projects[] = install_profile_api
 projects[] = similarterms
-projects[] = token
 projects[] = wysiwyg
 projects[] = xmlsitemap
 projects[] = tagadelic
