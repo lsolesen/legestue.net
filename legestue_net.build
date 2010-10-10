@@ -1,0 +1,6 @@
+core = 6.x
+projects[] =  drupal
+projects[legestue_net][type] = "profile"
+projects[legestue_net][download][type] = "git"
+projects[legestue_net][download][url] = "git@github.com:lsolesen/legestue.net.git"
+projects[legestue_net][download][branch] = "build_2009101601"
