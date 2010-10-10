@@ -1,3 +1,5 @@
+api = 2
+
 core = 6.x
 
 projects[] = admin_menu
@@ -12,9 +14,7 @@ projects[] = pathauto
 projects[] = recaptcha
 projects[] = tagadelic
 projects[] = token
-
 projects[] = views
-
 projects[] = drupad
 
 ; Themes
