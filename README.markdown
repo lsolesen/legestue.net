@@ -12,7 +12,7 @@ Requirements
 Installation
 --
 
-    sudo php drush make legestue_net.build /var/www/legestue_net_build_2009101601
+    sudo drush make legestue_net.build /var/www/legestue_net_build_2009101601
     
 Create the settings.php in sites/all/
 
