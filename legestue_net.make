@@ -5,7 +5,6 @@ core = 6.x
 projects[] = addthis
 projects[] = admin_menu
 projects[] = antispam
-projects[] = cck
 projects[] = fblike
 projects[] = globalredirect
 projects[] = google_analytics
