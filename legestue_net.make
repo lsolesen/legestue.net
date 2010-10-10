@@ -2,20 +2,25 @@ api = 2
 
 core = 6.x
 
+projects[] = addthis
 projects[] = admin_menu
-projects[] = captcha
-projects[] = geshifilter
+projects[] = antispam
+projects[] = cck
+projects[] = fblike
+projects[] = globalredirect
 projects[] = google_analytics
+projects[] = path_redirect
+projects[] = pathauto
 projects[] = image
 projects[] = install_profile_api
-projects[] = lightbox2
-projects[] = mailsave
-projects[] = pathauto
-projects[] = recaptcha
+projects[] = similarterms
+projects[] = token
+projects[] = wysiwyg
+projects[] = xmlsitemap
 projects[] = tagadelic
 projects[] = token
 projects[] = views
-projects[] = drupad
+;projects[] = drupad
 
 ; Themes
 ;projects[rubik][type] = "theme"

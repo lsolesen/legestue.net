@@ -26,11 +26,11 @@ function legestue_net_profile_modules() {
     'aggregator', 'book', 'contact', 'path', 'profile', 'search',
     'actions', 'trigger', 'upload', 'update',
     /* other contrib */ 
-    'install_profile_api', 'admin_menu', 'captcha', 
-    'geshifilter', 'pathauto', 'recaptcha',
-    'tagadelic', 'token', 'twitter', 'twitter_actions', 'twitter_post', 
-    'views', 'lightbox2', 'image', 'mailhandler',
-    'mailsave', 'mailsave_to_image', 'googleanalytics',
+    'install_profile_api', 'admin_menu', 
+    'pathauto',
+    'tagadelic', 'token', 
+    'views', 'image', 
+    'googleanalytics',
   );
 }
 
@@ -41,7 +41,7 @@ function legestue_net_profile_tasks() {
 
   // Install the core required modules and our extra modules
   $core_required = array('block', 'filter', 'node', 'system', 'user');
-  install_include(array_merge(mig5_net_profile_modules(), $core_required));
+  install_include(array_merge(legestue_net_profile_modules(), $core_required));
 
   // Change anonymous user's permissions - since anonymous user is always rid 1 we don't need to retrieve it
   $perms = array(
@@ -51,7 +51,6 @@ function legestue_net_profile_tasks() {
   );
 
   install_add_permissions(1, $perms);
-
 
   // Insert default user-defined node types into the database. For a complete
   // list of available node type attributes, refer to the node type API
@@ -79,6 +78,17 @@ function legestue_net_profile_tasks() {
       'help' => '',
       'min_word_count' => '',
     ),
+    array(
+      'type' => 'activity',
+      'name' => st('activity'),
+      'module' => 'node',
+      'description' => st("An <em>activity</em> is used to display any activity recorded on video."),
+      'custom' => TRUE,
+      'modified' => TRUE,
+      'locked' => FALSE,
+      'help' => '',
+      'min_word_count' => '',
+    ),    
   );
 
   foreach ($types as $type) {
