@@ -20,6 +20,8 @@ projects[emfield][subdir] = contrib
 
 projects[fbconnect][subdir] = contrib 
 
+projects[features][subdir] = contrib 
+
 projects[globalredirect][subdir] = contrib 
 
 projects[google_analytics][subdir] = contrib 
@@ -35,6 +37,8 @@ projects[path_redirect][subdir] = contrib
 projects[similarterms][subdir] = contrib 
 
 projects[scheduler][subdir] = contrib 
+
+projects[strongarm][subdir] = contrib 
 
 projects[tagadelic][subdir] = contrib 
 
