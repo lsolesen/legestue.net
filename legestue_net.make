@@ -26,6 +26,8 @@ projects[globalredirect][subdir] = contrib
 
 projects[google_analytics][subdir] = contrib 
 
+projects[i18n][subdir] = contrib 
+
 projects[install_profile_api][subdir] = contrib 
 
 projects[image][subdir] = contrib
