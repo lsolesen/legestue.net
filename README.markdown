@@ -32,6 +32,10 @@ entire site, you can run this:
 
     drush make --no-core --contrib-destination=. legestue_net.make
 
+### Rebuild everything ###
+
+    drush si teambuilder_vih_dk
+
 More information
 ----------------
 
