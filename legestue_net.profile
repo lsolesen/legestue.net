@@ -22,15 +22,12 @@ function legestue_net_profile_details() {
 function legestue_net_profile_modules() {
   return array(
     /* optional core */
-    'menu', 'comment', 'color', 'dblog', 'help', 'taxonomy',
-    'aggregator', 'book', 'contact', 'path', 'profile', 'search',
-    'trigger', 'upload', 'update',
+    'comment', 'color', 'contact', 'dblog', 'help', 'taxonomy',
+    'menu', 'path', 'profile', 'search',
+    'upload', 'update', 'trigger'
     /* other contrib */ 
-    'install_profile_api', 'admin_menu', 
-    'pathauto',
-    'tagadelic', 'token', 
-    'views', 'image', 
-    'googleanalytics',
+    'admin_menu', 'googleanalytics', 'image', 'install_profile_api', 'media_video_flotsam',
+    'pathauto', 'tagadelic', 'token', 'views'
   );
 }
 

@@ -32,6 +32,8 @@ projects[install_profile_api][subdir] = contrib
 
 projects[image][subdir] = contrib
 
+projects[media_video_flotsam][subdir] = contrib
+
 projects[pathauto][subdir] = contrib 
 
 projects[path_redirect][subdir] = contrib 
