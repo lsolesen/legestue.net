@@ -23,12 +23,9 @@ function legestue_net_profile_details() {
 function legestue_net_profile_modules() {
   return array(
     /* optional core */
-    'comment', 'color', 'contact', 'dblog', 'help', 'taxonomy',
-    'menu', 'path', 'profile', 'search',
-    'upload', 'update', 'trigger',
+    'comment', 'color', 'contact', 'dblog', 'help', 'taxonomy', 'menu', 'path', 'profile', 'search', 'upload', 'update', 'trigger',
     /* other contrib */ 
-    'admin_menu', 'googleanalytics', 'image', 'install_profile_api', 'media_video_flotsam',
-    'pathauto', 'tagadelic', 'token', 'views'
+    'admin_menu', 'googleanalytics', 'image', 'media_video_flotsam', 'pathauto', 'tagadelic', 'token', 'views'
   );
 }
 
@@ -96,16 +93,5 @@ function legestue_net_profile_tasks() {
 
   // Enable default theme
   install_default_theme("garland");
-
-  // Put the navigation block in the sidebar because the sidebar looks awesome.
-  //install_init_blocks();
-  // Navigation
-  //install_set_block('user', 1, 'singular', 'right');
-  // About
-  //install_set_block('block', 1, 'singular', 'right');
-  // Recent tweets
-  //install_set_block('views', 'tweets-block2', 'singular', 'right');
-  // Recent comments
-  //install_set_block('views', 'comments_recent-block', 'singular', 'right');
 }
 
