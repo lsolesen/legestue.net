@@ -3,7 +3,7 @@ api = 2
 
 core = 6.x
 projects[drupal][type] = core
-projects[drupal][version] = 6.20
+projects[drupal][version] = 6.25
 
 projects[legestue_net][type] = "profile"
 projects[legestue_net][download][type] = "git"
