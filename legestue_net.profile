@@ -9,7 +9,8 @@
 function legestue_net_profile_details() {
   return array(
     'name' => 'legestue.net',
-    'description' => 'Select this profile to deploy an instance of legestue.net.'
+    'description' => 'Select this profile to deploy an instance of legestue.net.',
+    'old_short_name' => 'default'
   );
 }
 
@@ -24,7 +25,7 @@ function legestue_net_profile_modules() {
     /* optional core */
     'comment', 'color', 'contact', 'dblog', 'help', 'taxonomy',
     'menu', 'path', 'profile', 'search',
-    'upload', 'update', 'trigger'
+    'upload', 'update', 'trigger',
     /* other contrib */ 
     'admin_menu', 'googleanalytics', 'image', 'install_profile_api', 'media_video_flotsam',
     'pathauto', 'tagadelic', 'token', 'views'
