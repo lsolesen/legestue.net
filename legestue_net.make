@@ -18,7 +18,7 @@ projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.8
 
 projects[date][subdir] = contrib 
-projects[date][version] = 2.8
+projects[date][version] = 2.9
 
 projects[emfield][subdir] = contrib 
 projects[emfield][version] = 2.5
@@ -27,7 +27,7 @@ projects[features][subdir] = contrib
 projects[features][version] = 1.2
 
 projects[globalredirect][subdir] = contrib 
-projects[globalredirect][version] = 1.4
+projects[globalredirect][version] = 1.5
 
 projects[google_analytics][subdir] = contrib 
 projects[google_analytics][version] = 3.3
@@ -57,7 +57,7 @@ projects[token][subdir] = contrib
 projects[token][version] = 1.18
 
 projects[transliteration][subdir] = contrib 
-projects[transliteration][version] = 3.0
+projects[transliteration][version] = 3.1
 
 projects[views][subdir] = contrib 
 projects[views][version] = 3.0
