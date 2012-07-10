@@ -25,7 +25,7 @@ function legestue_net_profile_modules() {
     /* optional core */
     'comment', 'color', 'contact', 'dblog', 'help', 'taxonomy', 'menu', 'path', 'profile', 'search', 'upload', 'update', 'trigger',
     /* other contrib */ 
-    'admin_menu', 'googleanalytics', 'image', 'media_video_flotsam', 'pathauto', 'tagadelic', 'token', 'views'
+    'admin_menu', 'googleanalytics', 'media_video_flotsam', 'pathauto', 'tagadelic', 'token', 'views'
   );
 }
 
