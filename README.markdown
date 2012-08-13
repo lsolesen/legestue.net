@@ -18,7 +18,6 @@ Create the settings.php in sites/default and chmod 755
 Create the files directory in sites/default and chmod 755
 
 Navigate to the root directory in a webbrowser.
-
   
 Create the settings.php in sites/default and chmod 755
 Create "files" directory in sites/default and chmod 755
@@ -34,9 +33,5 @@ entire site, you can run this:
 
 ### Rebuild everything ###
 
-    drush si teambuilder_vih_dk
+    drush si legestue_net
 
-More information
-----------------
-
-See more on [Drupal deployments & workflows with version control, drush_make, and Aegir](http://www.migueljacq.com/content/drupal-deployments-workflows-version-control-drushmake-and-aegir)
