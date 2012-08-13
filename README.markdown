@@ -1,4 +1,4 @@
-[Legestue.net](http://legestue.net)
+[Legestue.net](http://legestue.net) [![Build Status](https://secure.travis-ci.org/lsolesen/legestue.net.png?branch=master)](http://travis-ci.org/lsolesen/legestue.net)
 ==
 
 Instructions on how to build [legestue.net](http://legestue.net) from a standard Drupal 6.
