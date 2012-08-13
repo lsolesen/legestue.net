@@ -22,5 +22,3 @@ before_script:
 script: 
   - test -d profiles/legestue_net
   - test -d profiles/legestue_net/modules/contrib
-  - test -d profiles/legestue_net/modules/legestue
-  - test -d profiles/legestue_net/themes
