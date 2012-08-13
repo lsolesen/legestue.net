@@ -13,8 +13,8 @@ before_script:
   - pear channel-discover pear.drush.org
   - pear install drush/drush
   - phpenv rehash
-  - drush make legestue_net.build ../legestue.net
-  - cd ../legestue.net
+  - drush make legestue_net.build ../legestue-dev.net
+  - cd ../legestue-dev.net
   - sudo chmod -R 777 sites/all/modules
   - drush si legestue_net --db-url=mysql://root:@127.0.0.1/drupal --account-name=admin --account-pass=VIH@2012 --site-mail=admin@example.com --site-name="legestue.net" --yes
   - drush cc all --yes
@@ -22,5 +22,5 @@ before_script:
 script: 
   - test -d profiles/legestue_net
   - test -d profiles/legestue_net/modules/contrib
-  - test -d profiles/legestue_net/modules/vih
+  - test -d profiles/legestue_net/modules/legestue
   - test -d profiles/legestue_net/themes
