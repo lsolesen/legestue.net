@@ -8,4 +8,4 @@ projects[drupal][version] = 6.26
 projects[legestue_net][type] = "profile"
 projects[legestue_net][download][type] = "git"
 projects[legestue_net][download][url] = "git://github.com/lsolesen/legestue.net.git"
-projects[legestue_net][download][branch] = "master"
+projects[legestue_net][download][branch] = "6.x-1.x"
