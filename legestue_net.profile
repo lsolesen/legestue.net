@@ -30,8 +30,8 @@ function legestue_net_profile_modules() {
 }
 
 /**
-* Implementation of hook_profile_tasks().
-*/
+ * Implementation of hook_profile_tasks().
+ */
 function legestue_net_profile_tasks() {
 
   // Install the core required modules and our extra modules
@@ -73,17 +73,6 @@ function legestue_net_profile_tasks() {
       'help' => '',
       'min_word_count' => '',
     ),
-    array(
-      'type' => 'activity',
-      'name' => st('activity'),
-      'module' => 'node',
-      'description' => st("An <em>activity</em> is used to display any activity recorded on video."),
-      'custom' => TRUE,
-      'modified' => TRUE,
-      'locked' => FALSE,
-      'help' => '',
-      'min_word_count' => '',
-    ),    
   );
 
   foreach ($types as $type) {
