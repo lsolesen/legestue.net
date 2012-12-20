@@ -1,0 +1,25 @@
+name = legestue.net
+description = Installs legestue.net
+version = 7.x-0.1
+core = 7.x
+dependencies[] = block
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = help
+dependencies[] = image
+dependencies[] = menu
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = toolbar
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+
+;contrib
+
+;custom
+
+
+files[] = legestue_net.profile

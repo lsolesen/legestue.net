@@ -1,7 +1,7 @@
-[Legestue.net](http://legestue.net) [![Build Status](https://secure.travis-ci.org/lsolesen/legestue.net.png?branch=6.x-1.x)](http://travis-ci.org/lsolesen/legestue.net)
+[Legestue.net](http://legestue.net) [![Build Status](https://secure.travis-ci.org/lsolesen/legestue.net.png?branch=7.x-1.x)](http://travis-ci.org/lsolesen/legestue.net)
 ==
 
-Instructions on how to build [legestue.net](http://legestue.net) from a standard Drupal 6.
+Instructions on how to build [legestue.net](http://legestue.net) from a standard Drupal 7.
 
 Requirements
 ------------

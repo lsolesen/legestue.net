@@ -1,11 +1,11 @@
 ; drush make API version
 api = 2
 
-core = 6.x
+core = 7.x
 projects[drupal][type] = core
-projects[drupal][version] = 6.27
+projects[drupal][version] = 7.18
 
 projects[legestue_net][type] = "profile"
 projects[legestue_net][download][type] = "git"
 projects[legestue_net][download][url] = "git://github.com/lsolesen/legestue.net.git"
-projects[legestue_net][download][branch] = "6.x-1.x"
+projects[legestue_net][download][branch] = "7.x-1.x"
