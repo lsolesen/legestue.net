@@ -20,7 +20,7 @@ projects[date][subdir] = contrib
 projects[date][version] = 2.9
 
 projects[emfield][subdir] = contrib 
-projects[emfield][version] = 2.5
+projects[emfield][version] = 2.6
 
 projects[features][subdir] = contrib 
 projects[features][version] = 1.2
@@ -29,7 +29,7 @@ projects[globalredirect][subdir] = contrib
 projects[globalredirect][version] = 1.5
 
 projects[google_analytics][subdir] = contrib 
-projects[google_analytics][version] = 3.3
+projects[google_analytics][version] = 3.5
 
 projects[media_video_flotsam][subdir] = contrib
 projects[media_video_flotsam][version] = 1.2
@@ -41,7 +41,7 @@ projects[path_redirect][subdir] = contrib
 projects[path_redirect][version] = 1.0-rc2
 
 projects[similarterms][subdir] = contrib 
-projects[similarterms][version] = 2.2
+projects[similarterms][version] = 2.3
 
 projects[scheduler][subdir] = contrib 
 projects[scheduler][version] = 1.8
@@ -53,7 +53,7 @@ projects[tagadelic][subdir] = contrib
 projects[tagadelic][version] = 1.3
 
 projects[token][subdir] = contrib 
-projects[token][version] = 1.18
+projects[token][version] = 1.19
 
 projects[transliteration][subdir] = contrib 
 projects[transliteration][version] = 3.1
