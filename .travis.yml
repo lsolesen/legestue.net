@@ -2,22 +2,47 @@ language: php
 sudo: false
 
 php:
-  - 5.4
   - 5.5
+
+matrix:
+  fast_finish: true
+  include:
+    - php: 5.6
 
 mysql:
   database: drupal
   username: root
   encoding: utf8
-  
-before_script:
+
+# Cache Composer & Drush directories.
+cache:
+  directories:
+    - $HOME/.composer/cache
+    - $HOME/.drush/cache
+
+install:
   - "mysql -e 'create database drupal;'"
-  - pear channel-discover pear.drush.org
-  - pear install drush/drush
-  - phpenv rehash
-  - drush make legestue_net.build ../legestue-dev.net
-  - cd ../legestue-dev.net
-  - chmod -R 777 sites/
+
+  # Install latest Drush 6.
+  - travis_retry composer self-update && composer --version
+  - travis_retry composer global require "drush/drush:6.*"
+  - export PATH="$HOME/.composer/vendor/bin:$PATH"
+
+  - cd ../
+
+  # Build Codebase
+  - mkdir private_files
+  - mkdir profiles
+  - mv legestue.net profiles/legestue_net
+  - mkdir drupal
+  - mv profiles drupal/
+
+  # Test the current branch
+  - cd drupal
+  - drush make --prepare-install profiles/legestue_net/build-legestue.make --yes
+  - cd ../
+
+before_script:
   - drush si legestue_net --db-url=mysql://root:@127.0.0.1/drupal --account-name=admin --account-pass=VIH@2012 --site-mail=admin@example.com --site-name="legestue.net" --yes
   - drush cc all --yes
 
