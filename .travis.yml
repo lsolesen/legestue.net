@@ -1,8 +1,9 @@
 language: php
+sudo: false
 
 php:
-  - 5.3
   - 5.4
+  - 5.5
 
 mysql:
   database: drupal
@@ -16,7 +17,7 @@ before_script:
   - phpenv rehash
   - drush make legestue_net.build ../legestue-dev.net
   - cd ../legestue-dev.net
-  - sudo chmod -R 777 sites/
+  - chmod -R 777 sites/
   - drush si legestue_net --db-url=mysql://root:@127.0.0.1/drupal --account-name=admin --account-pass=VIH@2012 --site-mail=admin@example.com --site-name="legestue.net" --yes
   - drush cc all --yes
 
