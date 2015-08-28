@@ -6,8 +6,6 @@ php:
 
 matrix:
   fast_finish: true
-  include:
-    - php: 5.7
 
 mysql:
   database: drupal
