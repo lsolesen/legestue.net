@@ -38,7 +38,9 @@ install:
   # Test the current branch
   - cd drupal
   - drush make --prepare-install profiles/legestue_net/build-legestue.make --yes
-  - cd ../
+
+  # Disable sendmail
+  - echo sendmail_path=`which true` >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
 
 before_script:
   - drush si legestue_net --db-url=mysql://root:@127.0.0.1/drupal --account-name=admin --account-pass=VIH@2012 --site-mail=admin@example.com --site-name="legestue.net" --yes
